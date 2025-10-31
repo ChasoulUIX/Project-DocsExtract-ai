@@ -1,14 +1,14 @@
 @php
 $methods = [
-    ['name' => 'BCA Virtual Account', 'icon' => 'https://dummyimage.com/48x48/0066AE/ffffff&text=BCA', 'description' => 'Instant confirmation'],
-    ['name' => 'Mandiri Virtual Account', 'icon' => 'https://dummyimage.com/48x48/FFD500/003D7A&text=MDR', 'description' => 'Instant confirmation'],
-    ['name' => 'BNI Virtual Account', 'icon' => 'https://dummyimage.com/48x48/FF6600/ffffff&text=BNI', 'description' => 'Instant confirmation'],
-    ['name' => 'BRI Virtual Account', 'icon' => 'https://dummyimage.com/48x48/003D7A/ffffff&text=BRI', 'description' => 'Instant confirmation'],
-    ['name' => 'GoPay', 'icon' => 'https://dummyimage.com/48x48/00AA13/ffffff&text=GP', 'description' => 'Instant confirmation'],
-    ['name' => 'OVO', 'icon' => 'https://dummyimage.com/48x48/4C3494/ffffff&text=OVO', 'description' => 'Instant confirmation'],
-    ['name' => 'DANA', 'icon' => 'https://dummyimage.com/48x48/118EEA/ffffff&text=DANA', 'description' => 'Instant confirmation'],
-    ['name' => 'ShopeePay', 'icon' => 'https://dummyimage.com/48x48/EE4D2D/ffffff&text=SP', 'description' => 'Instant confirmation'],
-    ['name' => 'QRIS', 'icon' => 'https://dummyimage.com/48x48/FF0000/ffffff&text=QRIS', 'description' => 'Instant confirmation']
+    ['name' => 'BCA Virtual Account', 'icon' => asset('images/icons/bca.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'Mandiri Virtual Account', 'icon' => asset('images/icons/mandiri.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'BNI Virtual Account', 'icon' => asset('images/icons/bni.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'BRI Virtual Account', 'icon' => asset('images/icons/bri.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'GoPay', 'icon' => asset('images/icons/gopay.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'OVO', 'icon' => asset('images/icons/ovo.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'DANA', 'icon' => asset('images/icons/dana.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'ShopeePay', 'icon' => asset('images/icons/shopeepay.png'), 'description' => 'Instant confirmation'],
+    ['name' => 'QRIS', 'icon' => asset('images/icons/qris.png'), 'description' => 'Instant confirmation']
 ];
 @endphp
 
@@ -22,9 +22,11 @@ $methods = [
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             @foreach($methods as $method)
             <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-6 hover:border-primary/50 transition cursor-pointer">
-                <img src="{{ $method['icon'] }}" alt="{{ $method['name'] }}" class="w-12 h-12 mb-3 rounded-lg">
-                <p class="text-base font-medium text-center">{{ $method['name'] }}</p>
-                <p class="text-sm text-muted-foreground mt-1">{{ $method['description'] }}</p>
+                <div class="w-16 h-16 mb-3 flex items-center justify-center">
+                    <img src="{{ $method['icon'] }}" alt="{{ $method['name'] }}" class="max-w-full max-h-full object-contain">
+                </div>
+                <p class="text-sm font-medium text-center">{{ $method['name'] }}</p>
+                <p class="text-xs text-muted-foreground mt-1">{{ $method['description'] }}</p>
             </div>
             @endforeach
         </div>

@@ -96,9 +96,11 @@
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                                     </svg>
                                 </div>
-                                <img src="https://dummyimage.com/48x48/{{ $method['color'] }}/ffffff&text={{ strtoupper(substr($method['id'], 0, 3)) }}" 
-                                     alt="{{ $method['name'] }}" 
-                                     class="w-12 h-12 rounded-lg object-cover flex-shrink-0">
+                                <div class="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                                    <img src="{{ asset('images/icons/' . $method['id'] . '.png') }}" 
+                                         alt="{{ $method['name'] }}" 
+                                         class="max-w-full max-h-full object-contain">
+                                </div>
                                 <div class="flex-1 text-left">
                                     <div class="font-semibold">{{ $method['name'] }}</div>
                                     <div class="text-xs text-muted-foreground">Instant confirmation</div>
@@ -127,9 +129,11 @@
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                                     </svg>
                                 </div>
-                                <img src="https://dummyimage.com/48x48/{{ $method['color'] }}/ffffff&text={{ strtoupper(substr($method['id'], 0, 3)) }}" 
-                                     alt="{{ $method['name'] }}" 
-                                     class="w-12 h-12 rounded-lg object-cover flex-shrink-0">
+                                <div class="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                                    <img src="{{ asset('images/icons/' . $method['id'] . '.png') }}" 
+                                         alt="{{ $method['name'] }}" 
+                                         class="max-w-full max-h-full object-contain">
+                                </div>
                                 <div class="flex-1 text-left">
                                     <div class="font-semibold">{{ $method['name'] }}</div>
                                     <div class="text-xs text-muted-foreground">Instant confirmation</div>
@@ -155,9 +159,11 @@
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                                     </svg>
                                 </div>
-                                <img src="https://dummyimage.com/48x48/{{ $method['color'] }}/ffffff&text=QRIS" 
-                                     alt="{{ $method['name'] }}" 
-                                     class="w-12 h-12 rounded-lg object-cover flex-shrink-0">
+                                <div class="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                                    <img src="{{ asset('images/icons/' . $method['id'] . '.png') }}" 
+                                         alt="{{ $method['name'] }}" 
+                                         class="max-w-full max-h-full object-contain">
+                                </div>
                                 <div class="flex-1 text-left">
                                     <div class="font-semibold">{{ $method['name'] }}</div>
                                     <div class="text-xs text-muted-foreground">Scan QR untuk bayar</div>
