@@ -85,6 +85,57 @@
                 </div>
             </div>
 
+            <!-- Transparent Pricing -->
+            <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm mb-8">
+                <div class="flex flex-col space-y-1.5 p-6">
+                    <h3 class="text-2xl font-semibold leading-none tracking-tight">💰 Harga Transparan</h3>
+                    <p class="text-sm text-muted-foreground">Bayar hanya untuk apa yang Anda gunakan</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="p-4 border rounded-lg">
+                                <p class="text-sm text-muted-foreground mb-1">Dokumen Diproses Bulan Ini</p>
+                                <p class="text-2xl font-bold">1,234</p>
+                            </div>
+                            <div class="p-4 border rounded-lg">
+                                <p class="text-sm text-muted-foreground mb-1">Biaya Bulan Ini</p>
+                                <p class="text-2xl font-bold text-primary">Rp 431.900</p>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-muted rounded-lg">
+                            <p class="text-sm font-semibold mb-3">Rincian Biaya:</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between">
+                                    <span>Invoice (3 hal × Rp 350)</span>
+                                    <span class="font-semibold">Rp 1.050</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>KTP (1 hal × Rp 500)</span>
+                                    <span class="font-semibold">Rp 500</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Laporan Keuangan (25 hal × Rp 350)</span>
+                                    <span class="font-semibold">Rp 8.750</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Kontrak (5 hal × Rp 350)</span>
+                                    <span class="font-semibold">Rp 1.750</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Dokumen Lainnya (1.200 hal × Rp 350)</span>
+                                    <span class="font-semibold">Rp 420.000</span>
+                                </div>
+                                <div class="border-t pt-2 mt-2 flex justify-between font-bold">
+                                    <span>Total</span>
+                                    <span class="text-primary">Rp 431.900</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- API Key Management -->
             <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm mb-8">
                 <div class="flex flex-col space-y-1.5 p-6">
