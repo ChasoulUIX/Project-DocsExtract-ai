@@ -8,12 +8,12 @@
                     </div>
                     <span class="font-bold">DocExtract AI</span>
                 </div>
-                <p class="text-sm text-muted-foreground">Solusi ekstraksi dokumen tercepat dan termurah di Indonesia</p>
+                <p class="text-base text-muted-foreground">Solusi ekstraksi dokumen tercepat dan termurah di Indonesia</p>
             </div>
 
             <div>
-                <h3 class="font-semibold mb-4">Produk</h3>
-                <ul class="space-y-2 text-sm">
+                <h3 class="font-semibold mb-4 text-base">Produk</h3>
+                <ul class="space-y-2 text-base">
                     <li>
                         <a href="#features" class="text-muted-foreground hover:text-foreground transition">
                             Fitur
@@ -33,8 +33,8 @@
             </div>
 
             <div>
-                <h3 class="font-semibold mb-4">Perusahaan</h3>
-                <ul class="space-y-2 text-sm">
+                <h3 class="font-semibold mb-4 text-base">Perusahaan</h3>
+                <ul class="space-y-2 text-base">
                     <li>
                         <a href="#" class="text-muted-foreground hover:text-foreground transition">
                             Tentang Kami
@@ -54,8 +54,8 @@
             </div>
 
             <div>
-                <h3 class="font-semibold mb-4">Dukungan</h3>
-                <ul class="space-y-2 text-sm">
+                <h3 class="font-semibold mb-4 text-base">Dukungan</h3>
+                <ul class="space-y-2 text-base">
                     <li>
                         <a href="{{ route('docs') }}" class="text-muted-foreground hover:text-foreground transition">
                             Dokumentasi
@@ -76,12 +76,12 @@
         </div>
 
         <div class="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p class="text-sm text-muted-foreground">© 2025 DocExtract AI. All rights reserved.</p>
+            <p class="text-base text-muted-foreground">© 2025 DocExtract AI. All rights reserved.</p>
             <div class="flex gap-6 mt-4 md:mt-0">
-                <a href="#" class="text-sm text-muted-foreground hover:text-foreground transition">
+                <a href="#" class="text-base text-muted-foreground hover:text-foreground transition">
                     Privacy
                 </a>
-                <a href="#" class="text-sm text-muted-foreground hover:text-foreground transition">
+                <a href="#" class="text-base text-muted-foreground hover:text-foreground transition">
                     Terms
                 </a>
             </div>

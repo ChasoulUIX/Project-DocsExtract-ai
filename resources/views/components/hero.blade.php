@@ -31,8 +31,8 @@
                 <div class="relative w-full h-64 md:h-96 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg border border-border overflow-hidden">
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center">
-                            <div class="text-6xl mb-4">📄</div>
-                            <p class="text-muted-foreground">Tampilan Demo Ekstraksi Dokumen</p>
+                            <img src="https://dummyimage.com/96x96/4A5568/ffffff&text=DOC" alt="Document" class="w-24 h-24 mx-auto mb-4 rounded-lg">
+                            <p class="text-base text-muted-foreground">Tampilan Demo Ekstraksi Dokumen</p>
                         </div>
                     </div>
                 </div>

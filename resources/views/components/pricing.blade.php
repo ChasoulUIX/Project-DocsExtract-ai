@@ -60,7 +60,7 @@ $pricingPlans = [
         <div class="mb-16">
             <div class="flex flex-col items-center justify-center space-y-4 text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Harga Transparan</h2>
-                <p class="text-muted-foreground max-w-2xl">Bayar hanya untuk apa yang Anda gunakan</p>
+                <p class="text-base text-muted-foreground max-w-2xl">Bayar hanya untuk apa yang Anda gunakan</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
@@ -109,16 +109,16 @@ $pricingPlans = [
         <div class="border-t pt-16">
             <div class="flex flex-col items-center justify-center space-y-4 text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Harga Per Dokumen</h2>
-                <p class="text-muted-foreground max-w-2xl">Harga berbeda sesuai jenis dokumen yang diekstraksi</p>
+                <p class="text-base text-muted-foreground max-w-2xl">Harga berbeda sesuai jenis dokumen yang diekstraksi</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
                 @foreach($documentTypes as $doc)
                 <div class="rounded-lg border border-border bg-card text-card-foreground shadow-sm text-center">
                     <div class="p-6 pt-6">
-                        <h3 class="font-semibold text-lg mb-2">{{ $doc['name'] }}</h3>
+                        <h3 class="font-semibold text-base mb-2">{{ $doc['name'] }}</h3>
                         <p class="text-2xl font-bold text-primary">{{ $doc['price'] }}</p>
-                        <p class="text-xs text-muted-foreground mt-2">per dokumen</p>
+                        <p class="text-sm text-muted-foreground mt-2">per dokumen</p>
                     </div>
                 </div>
                 @endforeach
@@ -126,7 +126,7 @@ $pricingPlans = [
         </div>
 
         <div class="mt-12 p-6 bg-primary/10 border border-primary/20 rounded-lg">
-            <p class="text-center text-sm">
+            <p class="text-center text-base">
                 <span class="font-semibold">💡 Tips:</span> Deposit minimal Rp 50.000 untuk mendapatkan bonus 10%
             </p>
         </div>
